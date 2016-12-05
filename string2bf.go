@@ -5,7 +5,7 @@ import (
 )
 
 const STR string = "Hello world!"	// String you want to convert
-const COMPRESSION bool = false 		// Change to true to compress output
+const COMPRESSION bool = true		// Change to true to compress output
 
 func main() {
 	if (!COMPRESSION) {
@@ -42,8 +42,6 @@ func v2_convert(s string) {
 			for j := 0; j < int(ascii[i]); j++ {
 				fmt.Print("+")
 			}
-		} else if ascii[i-1] == ascii[i] {
-			fmt.Print(".")
 		} else if ascii[i-1] > ascii[i] {
 			for j := 0; j < int(ascii[i-1])-int(ascii[i]); j++ {
 				fmt.Print("-")
