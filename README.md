@@ -1,5 +1,5 @@
 # string2bf
-A simple [Golang](https://golang.org/) program that converts a string to [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) code
+A simple [Go](https://golang.org/) program that converts a string to [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) code
 
 ## Usage
 After changing settings to
